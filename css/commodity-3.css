@@ -1,0 +1,59 @@
+.left_two::before{
+    display: none;
+    position: absolute;
+    left: -89px;
+    top: -451px;
+    height: 420px;
+    width: 420px;
+    content: '';
+    background: url(../upload-3/商品详情页2.jpg) no-repeat;
+    background-size: 100%;
+}
+.left_two:hover::before{
+    display: block;
+}
+
+.left_three::before{
+    display: none;
+    position: absolute;
+    left: -177px;
+    top: -451px;
+    height: 420px;
+    width: 420px;
+    content: '';
+    background: url(../upload-3/商品详情页3.jpg) no-repeat;
+    background-size: 100%;
+}
+.left_three:hover::before{
+    display: block;
+}
+
+.left_four::before{
+    display: none;
+    position: absolute;
+    left: -265px;
+    top: -451px;
+    height: 420px;
+    width: 420px;
+    content: '';
+    background: url(../upload-3/商品详情页4.jpg) no-repeat;
+    background-size: 100%;
+}
+.left_four:hover::before{
+    display: block;
+}
+
+.left_hou::before{
+    display: none;
+    position: absolute;
+    left: -353px;
+    top: -451px;
+    height: 420px;
+    width: 420px;
+    content: '';
+    background: url(../upload-3/商品详情页5.jpg) no-repeat;
+    background-size: 100%;
+}
+.left_hou:hover::before{
+    display: block;
+}

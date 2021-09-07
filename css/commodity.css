@@ -1,0 +1,538 @@
+.navitems{
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.navitems ul li {
+    font-size: 15px;
+    height: 45px;
+    line-height: 45px;
+    
+    color: #666;
+    float: left;
+    margin: 0 32px;
+}
+.navitems ul li .qiang {
+    color: #ABCC03;
+    font-weight: 700;
+}
+.navitems ul li:hover a{
+    font-weight: 700;
+}
+
+.commodity_head{
+    height: 700px;
+    
+}
+.commodity_head .head_left{
+    float: left;
+    width: 420px;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-right: 30px;
+}
+.commodity_head .head_left .left_hd{
+    position: relative;
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 420px;
+    background-color: chocolate;
+}
+.commodity_head .head_left .left_hd .preview_img{
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+}
+.mask{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background-color: #D4eed9;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+    cursor: move;
+}
+.big{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 430px;
+    width: 500px;
+    height: 500px;
+    z-index: 999;
+    /* background-color: aqua; */
+    border: 1px solid #ccc;
+    /* background-color: #ABCC03; */
+    overflow: hidden;
+}
+.big .bigIMG{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 800px;
+    height: 800px; */
+    /* background-color: #ABCC03; */
+}
+.commodity_head .head_left .left_bd ul li{
+    float: left;
+    position: relative;
+    width: 68px;
+    height: 68px;
+    margin-right: 20px;
+}
+
+.commodity_head .head_left .left_bd ul li:hover{
+    border: 1px solid #ABCC03;
+}
+.commodity_head .head_left .left_bd ul .left_hou{
+    margin: 0;
+}
+
+
+.left_bd p{
+    float: left;
+    font-size: 12px;
+    margin-right: 40px;
+    margin-top: 40px;
+    
+}
+.left_bd i{
+    float: right;
+    font-size: 12px;
+    margin-top: 40px;
+    
+}
+.commodity_head .head_left .left_bd ul li img{
+    width: 100%;
+    height: 100%;
+}
+.commodity_head .head_middle{
+float: left;
+width: 480px;
+height: 100%;
+/* background-color: blueviolet; */
+margin-right: 30px;
+}
+
+
+.head_middle h4{
+    height: 25px;
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    background-color: #ABCC03;
+}
+.head_middle .biaoqian{
+    height: 25px;
+    width: 100%;
+    background-color: #ABCC03;
+}
+.head_middle .biaoqian p{
+    float: left;
+    margin: 0 10px;
+    font-size: 12px;
+    color: #fff;
+}
+.head_middle .jiage{
+    height: 40px;
+    width: 100%;
+    background-color: #D4eed9;
+}
+.head_middle .jiage p{
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.head_middle .jiage i{
+    float: left;
+    width: 100px;
+    height: 100%;
+    /* margin-right: 40px; */
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #ABCC03;
+}
+.head_middle .huodong {
+    width: 100%;
+    height: 40px;
+    background-color: #D4eed9;
+}
+.head_middle .huodong p{
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.head_middle .huodong i{
+    float: left;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #808008;
+}
+.head_middle .yunfei {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+.head_middle .yunfei p{
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.head_middle .yunfei i{
+    float: left;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #808008;
+}
+.head_middle .yunfei select{
+    float: left;
+    width: 130px;
+    height: 100%;
+    /* margin-right: 10px; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #808008;
+    margin-right: 20px;
+}
+
+.head_middle .yishou {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+.head_middle .yishou p{
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.head_middle .yishou i{
+    float: left;
+    width: 60px;
+    height: 100%;
+    /* margin-right: 10px; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #808008;
+}
+
+
+.head_middle .chima{
+    height: 81px;
+    width: 100%;
+    background-color:#fff;
+    border-top: 1px solid #e4e4e4;
+}
+.head_middle .chima p{
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.head_middle .chima ul li {
+    float: left;
+    height: 40px;
+    /* width: 120px; */
+    margin-right: 10px;
+}
+.head_middle .chima ul li .yuandian{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+} 
+.head_middle .chima ul li label{
+    float: left;
+}
+.head_middle .chima ul li label .xuanxiang_A{
+    float: left;
+    height: 30px;
+    margin:5px 0 ;
+    padding: 3px;
+    /* line-height: 40px; */
+    border: 2px solid #ABCC03;
+}
+
+.head_middle .yanse{
+    height: 81px;
+    width: 100%;
+    background-color:#fff;
+    /* border-top: 1px solid #e4e4e4; */
+}
+.head_middle .yanse p{
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 60px;
+}
+.head_middle .yanse ul li .yuandian{
+    float: left;
+    height: 60px;
+    
+} 
+
+.head_middle .yanse ul li label{
+    float: left;
+}
+.head_middle .yanse ul li label img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin:5px 0 ;
+    margin-right: 20px;
+    padding: 3px;
+    /* line-height: 40px; */
+    border: 2px solid #ABCC03;
+}
+
+.head_middle .yunfei {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+.head_middle .shuliang{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+.head_middle .shuliang p{
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.head_middle .shuliang .tebie{
+    margin-right: 0;
+    width: 40px;
+}
+.head_middle .shuliang i{
+    float: left;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #808008;
+}
+.head_middle .shuliang select{
+    float: left; 
+    width: 50px;
+    height: 60%;
+    margin-top: 9px;
+    /* margin-right: 10px; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #808008;
+    margin-right: 20px;
+}
+
+.head_middle .fuwuzhichi {
+    width: 100%;
+    height: 40px;
+    background-color: #D4eed9;
+}
+.head_middle .fuwuzhichi p{
+    float: left;
+    width: 60px;
+    height: 100%;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.head_middle .fuwuzhichi i{
+    float: left;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #808008;
+}
+.head_middle .gougougou{
+    width: 100%;
+    height: 100px;
+    /* background-color: #ABCC03; */
+    padding-top: 40px;
+    
+}
+.head_middle .gougougou .gou_left{
+    float: left;
+    font-size: 16px;
+    margin-left: 50px;
+    width: 160px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    border:1px solid  #ABCC03;
+    color: #ABCC03;
+} 
+
+.head_middle .gougougou .gou_right{
+    float: left;
+    font-size: 16px;
+    margin-left: 50px;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ABCC03;
+    color: #fff;
+
+} 
+.commodity_head .head_right{
+    float: left;
+    height: 100%;
+    width: 240px;
+    /* background-color: cadetblue; */
+}
+
+.commodity_head .head_right .haikanle{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #ABCC03;
+    font-size: 14px;
+}
+.commodity_head .head_right ul li{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.head_right ul li a img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.commodity_body{
+    height: 9170px;
+}
+
+.commodity_body .commodity_body_left{
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 100%;
+    
+}
+.commodity_body .commodity_body_left h5{
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ABCC03;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.commodity_body .commodity_body_left ul li{
+    float: left;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+.commodity_body .commodity_body_left ul li img{
+    width: 100%;
+}
+
+.commodity_body .commodity_body_middle{
+    float: left;
+    width: 760px;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.commodity_body .commodity_body_middle .middle_hd{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    text-align: left;
+    border-bottom: 2px solid #ABCC03;
+    color: #ABCC03;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.commodity_body_middle .middle_bd{
+    width: 100%;
+}
+.commodity_body_middle .middle_bd ul li{
+    width: 100%;
+}
+.commodity_body_middle .middle_bd ul li img{
+    width: 100%;
+}
+
+.commodity_body_right{
+    float: left;
+    margin-left: 20px;
+    width: 180px;
+    height: 100%;
+    /* background-color: #D4eed9; */
+}
+.commodity_body_right ul{
+    
+    background-color: #ABCC03;
+    position: sticky;
+    top: 0;
+}
+.qu{
+    color: #fff;
+}
+.commodity_body_right ul li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.commodity_body_right ul li a{
+    color: #fff;
+    font-size: 14px;
+
+}
+.commodity_body .commodity_body_right ul li:nth-child(2n){
+    background-color: #fff;
+}
+.commodity_body .commodity_body_right ul li:nth-child(2n) a{
+    color: #ABCC03;
+    
+}

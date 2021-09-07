@@ -1,0 +1,165 @@
+.xiao_w{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.face{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    border-bottom: 3px solid #abcc03;
+    line-height: 40px;
+}
+.face h4{
+    float: left;
+    color: #abcc03;
+    font-size: 16px;
+}
+.face p{
+    float: right;
+    font-size: 12px;
+}
+.face select{
+    float: right;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.gouwuche_tou{
+    /* position: sticky;
+    top: 10px; */
+    height: 40px;
+    width: 100%;
+    background-color: #d4eed9;
+    line-height: 40px;
+    font-size: 14px;
+   
+}
+.gouwuche_tou .quanxuan{
+    float: left;
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-right: 10px;
+    
+}
+.gouwuche_tou i{
+    float: left;
+}
+.gouwuche_tou .g_one{
+    margin-left: 75px;
+}
+.gouwuche_tou .g_two{
+    margin-left: 190px;
+}
+.gouwuche_tou .g_three{
+    margin-left: 65px;
+}
+.gouwuche_tou .g_four{
+    margin-left: 65px;
+}
+.gouwuche_tou .g_five{
+    margin-left: 50px;
+}
+.gouwuche_tou .g_six{
+    margin-left: 40px;
+}
+.gouwuche_tou .g_seven{
+    margin-left: 65px;
+}
+.gouwuche_tou .g_eight{
+    margin-left: 70px;
+}
+.gouwuche_body{
+    margin-bottom: 30px;
+    /* border-bottom: 2px solid #abcc03; */
+}
+.gouwuche_body .body_tou{
+    height: 35px;
+    width: 100%;
+    /* background-color: #d4eed9; */
+    border-bottom: 2px solid #abcc03;
+    line-height: 35px;
+}
+
+.gouwuche_body .body_tou .dianpu_quanxuan{
+    float: left;
+    margin: 11px 10px 0px 10px;
+}
+.gouwuche_body ul{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #d4eed9;
+    background-color: #fff;
+}
+.gouwuche_body ul li{
+    padding-left: 10px;
+    padding-top: 25px;
+    height: 140px;
+    width: 100%;
+    background-color: #EDF3EE;
+    border-top:1px solid #d4eed9 ;
+}
+.gouwuche_body ul li .danxuan{
+    float: left;
+    margin-top: 40px;
+}
+.gouwuche_body ul li img{
+    float: left;
+    margin: 0 10px;
+    height: 90px;
+    width: 90px;
+}
+.gouwuche_body ul li .shangpin_name{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.gouwuche_body ul li .shuliang{
+    float: left;
+}
+.gouwuche_body ul li i{
+    float: left;
+    margin-left: 20px;
+    width: 75px;
+    height: 100px;
+}.gouwuche_body ul li .huodong{
+    width: 100px;
+}
+.gouwuche_body ul li .xiaoji{
+    font-weight: 600;
+}
+.gouwuche_jiezhang{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -5px 8px 5px rgba(171,204,3, 0.3);
+    position: sticky;
+    bottom: 0;
+}
+.gouwuche_jiezhang .zongde_quanxuan{
+    float: left;
+  
+    margin: 20px 10px 0 10px;
+}
+.gouwuche_jiezhang i{
+    float: left;
+    margin-right: 20px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.gouwuche_jiezhang .jiesuan{
+    float: right;
+    height: 50px;
+    width: 75px;
+    background-color: #abcc03;
+    padding-left: 8px;
+    
+}
+.gouwuche_jiezhang .jiesuan a{
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 50px;
+    
+}

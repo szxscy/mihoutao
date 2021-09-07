@@ -1,0 +1,21 @@
+
+.body{
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.body img{
+   float: left;
+   height: 300px;
+   width: 300px;
+   margin-left: 455px;
+}
+i{
+    position: absolute;
+    left: 370px;
+    top: 350px;
+    float: left;
+    font-size: 25px;
+    font-weight: 800;
+    color: #abcc03;
+}
